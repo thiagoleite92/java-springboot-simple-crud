@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/health")
     public String index() {
-        return "Rafael boiola";
+        return "Hello From API";
     }
 }
