@@ -8,6 +8,6 @@ public class BancoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BancoApplication.class, args);
-        System.out.println("BancoApplication");
+        System.out.println("Server online na porta: 5200");
     }
 }

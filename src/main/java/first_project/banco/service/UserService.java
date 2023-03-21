@@ -15,7 +15,6 @@ public class UserService {
     private UserRepository userRepository;
 
     public UserModel saveUser(UserModel user) {
-        System.out.println("chegou no service");
         return userRepository.save(user);
     }
 
